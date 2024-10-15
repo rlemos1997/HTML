@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinamicas</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <h2>Tente abrir essa pagina com diferentes tamanhos de telas ou aumente e diminua o zoom da tela</h2>
+    <picture>
+        <source media="(max-width:750px )" srcset="midias/imagemp.jpg" type="image/jpg">
+        <source media="(max-width:1050px )" srcset="midias/imagemm.jpg" type="image/jpg">
+        <img src="midias/imagemg.jpg" alt="imagem flexivel">
+    </picture>
+
+    <h1>Agora vamos aprender a colocar audios no site</h1>
+    <audio preload="metadata" controls loop
+        source src="midias/mccidinho.mp3" type="audio/mpeg">
+    </audio>
+
+    <h1>Agora chegou a hora de colocar videos no site</h1>
+        <video src="midias/meuvideo.mp4" controls width="300"></video>
+
+    <h1>Agora a melhor forma de inserir videos no site</h1>
+    <h2>Inserindo videos do youtube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=i1UgRdKj5tbJYC6N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</html>

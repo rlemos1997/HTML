@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Teste</title>
+
+
+    <style>
+
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        .container {
+            display: flex;
+            flex-shrink: 1;
+            animation : blink 1s infinite;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .menu {
+            background-color: #90EE90; /* Fundo verde claro */
+            padding: 20px;
+            text-align: center;
+        }
+
+        .menu h1 {
+            color: red; /* Título vermelho */
+        }
+
+        h1 {
+            color: tomato;
+        }
+        
+        .texto-azul {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: medium;
+            color: blue;
+        }
+
+        .textorosa{
+            color: pink;
+        }
+
+        .textovermelho{
+            color: red;
+        }
+
+        .textoverde{
+            color: green;
+        }
+
+        a {
+            color: red;
+            font-size: large;
+        } 
+
+        #lista-de-frutas {
+            color: green;
+            font-size: large;
+        }
+
+    </style>
+</head>
+
+
+<body>
+  
+<div class="menu">
+    <h1 class="textovermelho">Aqui é o Título Principal da Página</h1> 
+</div>
+        
+<div class="container">
+    <h2>titulo do texto</h2>
+    <h2 class="texto-azul">tenha mais informações abaixo!</h2>
+    <p class="textoverde">Aqui é onde eu irei colocar toda a historia que quero informar nessa janela da 
+    pagina, então aqui eu irei colocar tudo completo, toda a informação 
+    que quero, também posso adicionar links como esse, caso queira entrar no Google, clique nesse link <a href="www.google.com">Google</a></p>
+    <p>Essa frase aqui é para testar se o a frase está em formato de quebra automatica de texto</p>
+</div>
+
+<h2>listas de frutas favoritas</h2>
+<h3>Frutas</h3>
+    <ul>
+        <li>maçã</li>
+        <li>laranja</li>
+        <li>abacaxi</li>
+    </ul>
+
+<h2>Lista de legumes favoritos</h2>
+<h3>Legumes</h3>
+    <ul>
+        <li>cebola</li>
+        <li>tomate</li>
+        <li>alface</li>
+        <li>batata</li>
+    </ul>
+
+<div class="texto-azul">
+<table border="1">
+
+    <tr>
+        <th colspan="4">DADOS RICARDO</th>
+
+    <tr>
+        <th>NOME</th>
+        <th>IDADE</th>
+        <th>PESO</th>
+        <th>ALTURA</th>
+    </tr>
+
+    <tr>
+        <td> Ricardo Lemos</td>
+        <td> 26 Anos</td>
+        <td> 80 kilos</td>
+        <td> 1,74 Metros</td>
+    </tr>
+
+    <tr> 
+        <td>Lemos</th>
+        <td>Outubro</th>
+        <td>forte</th>
+        <td>Alto</th>
+    </tr>
+</table>
+</div>
+
+<div class="container">
+<form action="https://exemplo.com/enviar" method="post">
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required>
+        
+    <label for="mensagem">Mensagem:</label>
+    <textarea id="mensagem" name="mensagem" required></textarea>
+        
+    <input type="submit" value="Enviar">
+</form>
+</div>
+
+<p>Caso queira saber mais sobre espotes clique nesse link <a href="https://ge.globo.com/">Globo Esporte</a><p>
+
+<p>Conheça um pouco mais osbre as minhas listas de frutas favoritas <a href="#lista de frutas">Clique aqui</a></p>
+
+</body>
+</html>
