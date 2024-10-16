@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio mesclage</title>
+
+
+    <style>
+
+      th {
+            
+            border: 1px solid black;
+            padding: 5px;
+            
+            
+        }
+
+        table { 
+            border-collapse: collapse;
+            width: 500px;
+        }
+
+        td {
+            text-align: center;
+            border: 1px solid black;
+            padding: 5px;
+            
+        }
+
+
+    .titulo {
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.2em;
+        background-color: lightgray;
+    }
+
+    .indice {
+        font-weight: bold;
+        font-size: 1em;
+        text-align: left;
+        background-color: lightgray;
+    }
+
+    .materias {
+        text-align: left;
+    }
+
+
+    </style>
+</head>
+<body>
+
+    <table>
+        <caption >
+            <tr>
+                <th class="titulo" rowspan="2">Area</th>
+                <th class="titulo" rowspan="2">Disciplinas</th>
+                <th class="titulo" colspan="2">Notas</th>
+                <th class="titulo" rowspan="2">Media</th>
+                <tr>
+                    <th class="titulo">Notas 1</th>
+                    <th class="titulo">Notas 2</th>
+                </tr>
+                
+            </tr>      
+        </caption>
+
+
+        <tbody>
+
+            <tr>
+                <th rowspan="4">Exatas</th>
+                <td class="materias">Matematica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            
+            </tr>
+
+            <tr>
+                <td class="materias">Fisica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr>
+                <td class="materias">Quimica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr>
+                <td class="materias">Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+       
+
+            <tr>              
+                <th class="indice" colspan="4">Media de Exatas</th>
+                <td style="background-color: lightgray;">0.0</td>
+            </tr>
+                 
+
+        </tbody>
+
+        <tbody>
+
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <td class="materias">HIstória</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            
+            </tr>
+
+            <tr>
+                
+                <td class="materias">Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            
+            </tr>
+
+            <tr>
+                <th class="indice" colspan="4">Media de Humanas</th>
+                <td style="background-color: lightgray;">0.0</td>
+            </tr>
+        </tbody>
+    </table>
+
+    
+</body>
+</html>
