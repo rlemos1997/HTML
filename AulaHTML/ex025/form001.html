@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+
+    <style>
+        form {
+            
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Meu primeiro formulario</h1>
+
+    <form method="post" action="cadastro.py" autocomplete="on">
+        <p><label for="inome">Nome</label> <input type="text" name="nome" id="inome" required maxlength="15" minlength="5" placeholder="name" size="20" autocomplete="username"></p>
+
+        <p><label for="isenha">Senha</label> <input type="password" name="senha" id="isobrenome" required minlength="5" maxlength="15" placeholder="senha" size="20" autocomplete="current-password"></p>
+
+        <p><label for="imedia" >Media</label> <input type="number" name="media" id="imedia" min="0" max="10" placeholder="0 a 10" step="0.1" required></label></p>
+
+        <p><label for="imes" >Mês <input type="month" name="mes" id="imes" required></label></p>
+
+        <p><label for="idia" >Dia <input type="date" name="dia" id="idia" required></label></p>
+        
+
+        <p><input type="submit" value="Enviar"> <input type="reset" value="Limpar"></p>
+        
+
+    </form>
+
+    
+</body>
+</html>
